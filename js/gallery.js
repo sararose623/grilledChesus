@@ -1,18 +1,23 @@
 $(document).ready(function(){
     
-    $("img").click(function(){
-        $("#bigImage").animate({
+    $("#btn1").click(function(){
+        $(".thumbnail").animate({
             // left: '250px',
             height: '+=150px',
             width: '+=150px'
         });
-        $("#bigImage").css("z-index", "500");
+        $(".thumbnail").css("z-index", "500");
     });
-    // $("bigImage").click(function(){
-    // 	$("img").animate({
-    // 		height: '-=150px',
-    //         width: '-=150px'
-    // 	});
-    // });
+
+ $("#btn2").click(function(){
+        $(".thumbnail").animate({
+            // left: '250px',
+            height: '-=150px',
+            width: '-=150px'
+        });
+        $(".thumbnail").css("z-index", "500");
+    });
+
+
 
 });
