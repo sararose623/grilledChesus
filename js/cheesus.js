@@ -20,5 +20,9 @@ $(document).ready( function(){
     	slideMenuDown();
     })
 
+    $("#carDiv").ready( function(){
+    	$("#aboutDiv").fadeIn(4000);
+    })
+
 
 })

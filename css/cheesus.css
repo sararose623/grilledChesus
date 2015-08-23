@@ -67,3 +67,15 @@ div li{
 	color: rgba(199,118,41,1);
 
 }
+#aboutDiv{
+	width: 600px;
+	height: 200px;
+	text-align: left;
+	font-size: 20pt;
+	font-family: handwriting-dakota;
+	color: rgba(199,118,41,1);
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	display: none;
+}
