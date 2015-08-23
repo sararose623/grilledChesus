@@ -46,6 +46,7 @@ nav ul li:hover{
 	position: absolute;
 	top: 415px;
 	left: 350px;
+	z-index: 1;
 	display: none;
 
 }
@@ -55,4 +56,14 @@ nav ul li:hover{
 }
 div li{
 	list-style: none;
+}
+#logo{
+	font-family: handwriting-dakota;
+	letter-spacing: 15px;
+	font-size: 50pt;
+	position: absolute;
+	bottom: 75px;
+	right: 100px;
+	color: rgba(199,118,41,1);
+
 }
