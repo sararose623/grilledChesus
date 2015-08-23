@@ -1,0 +1,58 @@
+body{
+	background:rgba(167,214,247,1);
+}
+nav{
+	position: absolute;
+	top: 200px;
+	left: 10px;
+
+}
+nav ul{
+	list-style: none;
+	/*border:solid 2px rgba(199,118,41,1);*/
+
+}
+nav ul li{
+	border: solid 10px rgba(199,118,41,1);
+	display: inline-block;
+	text-align: center;
+	padding-top: 55px;
+	font-size: 30pt;
+	width: 250px;
+	height: 120px;
+	margin: 5px;
+	border-radius: 100px;
+
+
+}
+nav ul li:hover{
+	cursor: pointer;
+	background: rgba(199,118,41,1);
+	color: white;
+}
+#carDiv{
+	position: relative;
+	top: 25px;
+}
+#menuDiv{
+	background: rgba(199,118,41,1);
+	width: 250px;
+	height: 120px;
+	border-radius: 100px;
+	padding-top: 55px;
+	text-align: center;
+	font-size: 15pt;
+	color: white;
+	position: absolute;
+	top: 415px;
+	left: 350px;
+	display: none;
+
+}
+
+#clickMenu{
+
+}
+div li{
+	list-style: none;
+}
