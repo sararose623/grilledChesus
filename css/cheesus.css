@@ -159,5 +159,5 @@ div a{
 	height: 300px;
 	text-align: center;
 	color: rgba(199,118,41,1);
-	/*clear: both;*/
+	float: left;
 }
