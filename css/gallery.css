@@ -1,3 +1,7 @@
+@font-face {
+	font-family: shimesOne;
+	src: url(../fonts/ShimesOne_PERSONAL.ttf);
+}
 body{
 	background: rgb(167,214,247);
 }
@@ -6,7 +10,7 @@ body{
 	position: absolute;
 	top: 10px;
 	left: 80px;
-	font-family: arial;
+	font-family: shimesOne;
 	color: white;
 	font-size: 80pt;
 
@@ -42,30 +46,41 @@ img{
 
 #buttons{
 	position: relative;
-	top: 125px;
-	width: 100%;
-	height: 50px;
+	top: 135px;
+	width: 400px;
+	height: 100px;
 	margin-left: 115px;
-
+	
 }
+
+#btn1{
+	width: auto;
+	height: 100%;
+}
+#btn2{
+	width: auto;
+	height: 100%;
+}
+
 p{
 	font-family: arial;
 	color: white;
+	position: absolute;
+	top: 20%;
+
 }
 #text1{
 	position: absolute;
-	top: 60%;
-	left: 25px;
+	left: 15px;
 	z-index: 5;
-	font-size: 15pt;
+	font-size: 10pt;
 }
 
 #text2{
 	position: absolute;
-	top: 80%;
-	left: 125px;
+	left: 95px;
 	z-index: 5;	
-	font-size: 11pt;
+	font-size: 10pt;
 }
 
 #buttons:hover{
