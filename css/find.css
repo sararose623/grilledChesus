@@ -1,3 +1,7 @@
+@font-face {
+	font-family: shimesOne;
+	src: url(../fonts/ShimesOne_PERSONAL.ttf);
+}
 body{
 	background: rgb(167,214,247);
 }
@@ -12,25 +16,26 @@ body{
 	position: absolute;
 	top: 10px;
 	left: 80px;
-	font-family: arial;
+	font-family: shimesOne;
 	color: white;
 	font-size: 80pt;
+	
 
 }
 #wrap{
 	position: absolute;
-	top: 200px;
+	top: 150px;
 	left: 0;
 	right: 0;
 	bottom: 0; 
 	margin: auto;
-	width: 800px;
+	width: 50%;
 	height: 100%;
 }
 
 #map{
 	position: absolute;
-	top: 50px;
+	top: 0px;
 	left: 0;
 	right: 0;
 	bottom: 0; 
@@ -43,13 +48,15 @@ body{
 	border-bottom-right-radius: 30px;
 	border-bottom-left-radius: 10px; 	
 	overflow: hidden;
+	width: 100%;
+	height: 65%;
 }
 
 #twitter{
 	width: 300px;
 	height: 600px;
 	position: absolute;
-	top: 950px;
+	top: 900px;
 	left: 0;
 	margin: 0;
 	padding: 10px;
@@ -65,7 +72,7 @@ body{
 
 #contact{
 	position: absolute;
-	top: 950px;
+	top: 900px;
 	right: 0;
 	margin: 0;
 	padding: 10px;
@@ -83,8 +90,9 @@ body{
 }
 
 #heading{
-	font-size: 25pt;
+	font-size: 50pt;
 	text-align: center;
+	font-family: shimesOne;
 }
 
 #social{
