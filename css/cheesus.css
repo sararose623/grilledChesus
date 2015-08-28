@@ -34,6 +34,9 @@ nav ul li:hover{
 	background: rgba(199,118,41,1);
 	color: white;
 }
+nav ul a{
+	color: black;
+}
 #carDiv{
 	position: relative;
 	top: 25px;
@@ -69,17 +72,19 @@ div a{
 #logo{
 	font-family: shimesOne;
 	letter-spacing: 15px;
-	font-size: 50pt;
+	font-size: 40pt;
 	position: absolute;
 	bottom: 75px;
-	right: 100px;
+	right: 0px;
 	color: rgba(199,118,41,1);
 
 }
+
 #aboutDiv{
 	width: 600px;
 	height: 200px;
 	text-align: left;
+	word-spacing: 3px;
 	font-size: 30pt;
 	font-family: shimesOne;
 	color: rgba(199,118,41,1);
@@ -133,6 +138,7 @@ div a{
 	margin-bottom: 40px;	
 	width: 100%;
 	height: 60px;
+	word-spacing: 7px;
 	font-size: 30pt;
 	text-align: left;
 	letter-spacing: 5px;
@@ -153,5 +159,5 @@ div a{
 	height: 300px;
 	text-align: center;
 	color: rgba(199,118,41,1);
-	clear: both;
+	float: left;
 }
