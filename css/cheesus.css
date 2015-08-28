@@ -72,10 +72,10 @@ div a{
 #logo{
 	font-family: shimesOne;
 	letter-spacing: 15px;
-	font-size: 50pt;
+	font-size: 40pt;
 	position: absolute;
 	bottom: 75px;
-	right: 100px;
+	right: 0px;
 	color: rgba(199,118,41,1);
 
 }
